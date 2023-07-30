@@ -1,0 +1,165 @@
+
+	body
+	{
+		font-family: "Times New Roman";
+		background-color:#849a9a;
+		outline: #fdfdfd solid 1px;
+	}
+	header
+	{
+		font-weight:bold;
+		display: block;
+		background-color:#2789c2;
+		font-size:30px;;
+		overflow: hidden;
+		text-align:center;
+		text-transform: uppercase;
+		text-shadow: 2px 2px 2px black;
+		max-height:100px;
+		min-height: 50px;
+		margin-top:0px;
+		color:white;
+		padding-top:2%;
+		outline: #fdfdfd solid 1px;
+	}
+
+/* ID */
+	#top-show-more{
+		display: none;
+	}
+	#leftli{
+		display: block;
+	}
+	.nav
+	{
+		background-color:	#37a4e2;
+		font-size:23px;
+		display: block;
+		outline: #fdfdfd solid 1px;
+		height: auto;
+		overflow: hidden;
+	} 
+	.nav ul{
+		list-style-type: none;
+		margin: 0;
+		padding: 0;
+		overflow: hidden;
+		display: inline;
+	}
+    
+	/* left list item */
+	.nav .left-li{
+		float: left;
+		overflow: hidden;
+		background-color: white;
+	}
+	/* right list item */
+    .nav .right-li{
+		float: right;
+		overflow: hidden;
+		background-color: #849a9a;
+	}
+	/* nav li property */
+	.nav li{
+		
+		display: inline;
+		float: left;
+	}
+	
+	.nav li a{
+		display: inline-block;
+		color: black;
+		text-align: center;
+		padding: 14px 16px;
+		text-decoration: none;
+	}
+	.nav li a:hover{
+		background-color: aquamarine;
+	}
+    .menu-icon{
+		width:20px;
+		padding: 0px;
+	}
+	section
+	{
+		display: block;
+		width: 100%;
+		min-height: 600px;
+		background-color:#cde1f0;
+		padding-bottom: 5px;
+	}
+	article
+	{
+		margin-top:5%;
+		display:inline-block;
+		min-height: 400px;
+		width: 65%;
+		padding-left:10px;
+		padding-right:10px;
+		padding-bottom: 50px;
+		background-color:rgb(199, 214, 232);
+	}
+	aside.left
+	{
+		margin-top:5%;
+		display:inline-block;
+		float: left;
+		width: 15%;
+		word-wrap: break-word;
+		min-height:400px;
+		padding:5px;
+	}
+	aside.right
+	{
+		margin-top:5%;
+		display:inline-block;
+		float: right;
+		width: 15%;
+		word-wrap: break-word;
+		min-height:400px;
+		padding: 0.1%;
+	}
+	/* responsibility */
+	/* @media screen and (max-width: 1000px)  */
+	@media only screen and (max-width: 600px) and (min-width: 400px)
+	{
+		#top-show-more{
+			float: left;
+			display: block;
+		}
+		#leftli{
+			display: block;
+		}
+		.nav .left-li{
+			float: none;
+			overflow: hidden;
+			background-color: white;
+			width: 100%;
+		}
+		/* right list item */
+		.nav .right-li{
+			float: right;
+			display: block;
+			overflow: hidden;
+			background-color: #849a9a;
+			width: 100%;
+		}
+		/* nav li property */
+		.nav .right-li li{
+			
+			display: block;
+			float: right;
+		}
+		.nav .left-li li{
+			width: 100%;
+		}
+		.nav .left-li  a{
+			display: block;
+			color: black;
+			text-align: left;
+			padding: 14px 16px;
+			text-decoration: none;
+		}
+
+		
+	}
